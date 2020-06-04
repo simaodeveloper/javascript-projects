@@ -1,0 +1,29 @@
+{
+  "name": "javascript-projects",
+  "version": "1.0.0",
+  "description": "A repository to practice reallife problems with javascripts",
+  "main": "index.js",
+  "repository": "git@github.com:simaodeveloper/javascript-projects.git",
+  "author": "Daniel Simão <simaodeveloper@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "babel-jest": "^26.0.1",
+    "husky": "^4.2.5",
+    "jest": "^26.0.1",
+    "lint-staged": "^10.2.9",
+    "standard": "^14.3.4"
+  },
+  "standard": {
+    "ignore": [
+      "*.test.js"
+    ]
+  }
+}
